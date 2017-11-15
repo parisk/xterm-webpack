@@ -8,8 +8,7 @@
   "dependencies": {
     "@types/node": "^8.0.47",
     "typescript": "^2.6.1",
-    "webpack": "^3.8.1",
-    "xterm": "https://github.com/xtermjs/xterm.js#v3"
+    "webpack": "^3.8.1"
   },
   "devDependencies": {
     "ts-loader": "^3.1.1",
