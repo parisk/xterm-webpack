@@ -1,32 +1,12 @@
-# xterm.js and webpack testbed
+# xterm.js and Webpack usage
 
-This is a testbed repo to get xterm.js working with webpack.
+This is a repo just showing how to use xterm.js with Webpack.
 
-## Current status
+## Instructions
 
-Right now running `npm run build` produces the following error
+1. Clone this repo
+2. Run `npm run bootstrap`
+3. Run `npm run build`
+4. Run `npm start`
 
-```
-Hash: ad015a893c459fa739cb
-Version: webpack 3.8.1
-Time: 3712ms
-    Asset     Size  Chunks             Chunk Names
-bundle.js  3.08 kB       0  [emitted]  main
-   [0] ./src/index.ts 288 bytes {0} [built]
-    + 1 hidden module
-
-ERROR in ./node_modules/xterm/src/Terminal.ts
-Module parse failed: Unexpected token (51:8)
-You may need an appropriate loader to handle this file type.
-|
-| // Declares required for loadAddon
-| declare var exports: any;
-| declare var module: any;
-| declare var define: any;
- @ ./src/index.ts 3:17-46
-
-npm ERR! Linux 4.4.0-98-generic
-npm ERR! argv "/usr/local/bin/node" "/usr/local/bin/npm" "run" "build"
-npm ERR! node v7.2.1
-npm ERR! npm  v3.10.10
-```
+Open your browser at http://localhost:3000 or your [SourceLair](https://www.sourcelair.com) project's Public URL 😁.

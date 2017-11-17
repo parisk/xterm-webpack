@@ -3,10 +3,13 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "build": "webpack"
+    "bootstrap": "./bin/bootstrap",
+    "build": "webpack",
+    "start": "http-server -p ${PORT:-3000}"
   },
   "dependencies": {
     "@types/node": "^8.0.47",
+    "http-server": "^0.10.0",
     "typescript": "^2.6.1",
     "webpack": "^3.8.1"
   },
