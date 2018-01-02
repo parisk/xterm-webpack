@@ -5,7 +5,7 @@ This is a repo just showing how to use xterm.js with Webpack.
 ## Instructions
 
 1. Clone this repo
-2. Run `npm run bootstrap`
+2. Run `npm install`
 3. Run `npm run build`
 4. Run `npm start`
 

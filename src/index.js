@@ -1,5 +1,5 @@
-import { Terminal } from './xterm';
-import * as fit from './xterm/lib/addons/fit/fit';
+import { Terminal } from 'xterm';
+import * as fit from 'xterm/lib/addons/fit/fit';
 
 Terminal.applyAddon(fit);
 
@@ -11,6 +11,7 @@ window.term = term;
 
 document.addEventListener('DOMContentLoaded', function() {
   term.open(document.getElementById('xterm-container'));
+  term.fit();
 
-  term.wirteline('It Werks!');
+  term.writeln('It Werks!');
 });
